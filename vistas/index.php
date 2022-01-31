@@ -20,7 +20,7 @@
     		<label for="password"><b>Contraseña <span style="color:red">*</span></b></label>
     		<input type="password" placeholder="Password" name="Contraseña" required>
 
-    		<button type="submit">Login</button>
+    		<button type="submit">Iniciar Sesión</button>
   	</div>
 
 
