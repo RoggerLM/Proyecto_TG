@@ -1,24 +1,32 @@
 <?php
+
 ?>
 
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Inicio de Sesión</title>
+		<link rel="stylesheet" href="css/style_login.css">
+</head>
+<body>
+<form action="" method="POST">
+  	<div class="container">
+      	<h1>PHP Inicio de Sesión</h1>
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<tittle> Login | Bienestar universitario </tittle>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head> 
-	<body> 
-		<section id="container">
-			<form action="" method="post">
-				<h3>Iniciar Sesión </h3>
-				<img src="assets/img/Login icono.png" alt="Login">
-                <input type="text" name="Usuario" placeholder="Usuario" >
-                <input type="password" name="clave" placeholder="Contraseña">
-                <p class="alert"></p>
-                <input type="submit" value="Ingresar">
-            </form>
-        </section>
-    </body>
+    		<label for="username"><b>Usuario <span style="color:red">*</span></b></label>
+    		<input type="text" placeholder="Username" name="DNI" required>
+
+    		<label for="password"><b>Contraseña <span style="color:red">*</span></b></label>
+    		<input type="password" placeholder="Password" name="Contraseña" required>
+
+    		<button type="submit">Login</button>
+  	</div>
+
+  	<!--<div class="container" style="background-color:#f1f1f1">
+    		<button type="button" onclick="window.location.href='index.php'" class="cancelbtn">Cancel</button>
+    		<span class="psw"><a href="#">Forgot password?</a></span>
+  	</div>-->
+
+</form>
+</body>
 </html>
